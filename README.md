@@ -1,18 +1,19 @@
+## All About Authentication
 ### What is Authentication ?
 - Process which confirms user’s identity
 - They are who they say they are
 -	Usually before grating access or allowing privileged actions
 -	E.g. anyone processing key to a room can access it, you have the key, you are an authorized user
 -	Necessary for access control, eg admin pages, paid content
+
 ### Authentication Factors
-1. **Knowledge Based**: Something the user **KNOWS**
-  - Password, PIN, Mother’s maiden name
-2. **Ownership**: Something the user **HAS**
-  - Key, ID Batch, Ticket, Credit Card
-3. **Inherence**: Something the user **IS**
-  - Fingerprints, voice, face recognition
+1. **Knowledge Based**: Something the user **KNOWS**. Eg. Password, PIN, Mother’s maiden name
+2. **Ownership**: Something the user **HAS**. Eg. Key, ID Batch, Ticket, Credit Card
+3. **Inherence**: Something the user **IS**. Eg. Fingerprints, voice, face recognition
 
 Legal system uses Signature which is combination of knowledge and inherence
+
+ATM machine uses combination of card and PIN.
 
 ### Characteristics of Password
 - Do not have to be unique
